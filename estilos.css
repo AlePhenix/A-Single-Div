@@ -10,7 +10,6 @@
 }
 
 .shell {
-    
     display: grid;
     align-items: center;
     justify-items: center;
@@ -96,4 +95,22 @@
     background-image: linear-gradient(to left,rgba(0,0,0,0.1) 20%,rgba(0,0,0,0.05) 20%,rgba(0,0,0,0.05) 46%,rgba(0,0,0,0) 46%),radial-gradient(rgba(255,255,255,0.8) 15%,rgba(255,255,255,0) 16%),repeating-linear-gradient(to right,#90ee90,#90ee90 8px,#5ee65e 8px,#5ee65e 16px);
     background-size: auto auto,15px 15px,auto auto;
     border: 5px solid rgb(127, 74, 92);
+}
+
+.space-invaders-container {
+    background-color: rgb(3, 3, 60);
+}
+
+.space-invaders {
+    height: 150px;
+    width:200px;
+    background: linear-gradient(#08fafa ,#08fafa) 3em 1em/ 1em 1em, linear-gradient(#08fafa ,#08fafa) 4em 2em/1em 2em, linear-gradient(#08fafa, #08fafa) 3em 3em/ 6em 1em, linear-gradient(#08fafa,
+    #08fafa) 1em 5em/1em 3em, linear-gradient(#08fafa, #08fafa) 2em 4em/1em 2em, linear-gradient(#08fafa ,#08fafa) 3em 3em/ 1em 5em , linear-gradient(#08fafa, #08fafa) 4em 8em/ 2em 1em, linear-gradient(#08fafa ,#08fafa) 5em 3em/ 3em 4em, linear-gradient(#08fafa, #08fafa) 3em 5em/ 7em 2em, linear-gradient(#08fafa ,#08fafa) 9em 3em/ 1em 5em, linear-gradient(#08fafa,#08fafa) 7em 8em/ 2em 1em, linear-gradient(#08fafa, #08fafa) 8em 2em/1em 2em, linear-gradient(#08fafa,#08fafa) 9em 1em/ 1em 1em, linear-gradient(#08fafa,#08fafa) 9em 4em/ 2em 2em, linear-gradient(#08fafa,#08fafa)11em 5em/ 1em 3em, linear-gradient(#08fafa,#08fafa) 1em 5em/10em 1em;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-height: 350px) {
+    .shell {
+        height: 100vh;
+    }   
 }
