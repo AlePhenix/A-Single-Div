@@ -97,17 +97,63 @@
     border: 5px solid rgb(127, 74, 92);
 }
 
-.space-invaders-container {
+.space-invaders-1-container {
     background-color: rgb(3, 3, 60);
 }
 
-.space-invaders {
+.space-invaders1 {
     height: 150px;
     width:200px;
     background: linear-gradient(#08fafa ,#08fafa) 3em 1em/ 1em 1em, linear-gradient(#08fafa ,#08fafa) 4em 2em/1em 2em, linear-gradient(#08fafa, #08fafa) 3em 3em/ 6em 1em, linear-gradient(#08fafa,
     #08fafa) 1em 5em/1em 3em, linear-gradient(#08fafa, #08fafa) 2em 4em/1em 2em, linear-gradient(#08fafa ,#08fafa) 3em 3em/ 1em 5em , linear-gradient(#08fafa, #08fafa) 4em 8em/ 2em 1em, linear-gradient(#08fafa ,#08fafa) 5em 3em/ 3em 4em, linear-gradient(#08fafa, #08fafa) 3em 5em/ 7em 2em, linear-gradient(#08fafa ,#08fafa) 9em 3em/ 1em 5em, linear-gradient(#08fafa,#08fafa) 7em 8em/ 2em 1em, linear-gradient(#08fafa, #08fafa) 8em 2em/1em 2em, linear-gradient(#08fafa,#08fafa) 9em 1em/ 1em 1em, linear-gradient(#08fafa,#08fafa) 9em 4em/ 2em 2em, linear-gradient(#08fafa,#08fafa)11em 5em/ 1em 3em, linear-gradient(#08fafa,#08fafa) 1em 5em/10em 1em;
     background-repeat: no-repeat;
 }
+
+.space-invaders-2-container {
+    background-color: rgb(0, 11, 49);
+}
+.space-invaders2 {
+    position: relative;
+    height: 150px;
+    width:160px;
+    background: linear-gradient(#eb19ea ,#eb19ea) 4em 1em/ 2em 4em, linear-gradient(#eb19ea ,#eb19ea) 3em 2em/4em 2em, linear-gradient(#eb19ea, #eb19ea) 2em 3em/ 6em 3em, linear-gradient(#eb19ea,
+    #eb19ea) 1em 4em/8em 2em, linear-gradient(#eb19ea, #eb19ea) 3em 6em/1em 1em, linear-gradient(#eb19ea ,#eb19ea) 2em 7em/ 1em 1em , linear-gradient(#eb19ea, #eb19ea) 1em 8em/ 1em 1em, linear-gradient(#eb19ea ,#eb19ea) 3em 8em/ 1em 1em, linear-gradient(#eb19ea, #eb19ea) 4em 7em/ 2em 1em, linear-gradient(#eb19ea ,#eb19ea) 6em 6em/ 1em 1em, linear-gradient(#eb19ea,#eb19ea) 6em 8em/ 1em 1em, linear-gradient(#eb19ea, #eb19ea) 7em 7em/1em 1em, linear-gradient(#eb19ea,#eb19ea) 8em 8em/ 1em 1em;
+    background-repeat: no-repeat;
+}
+.space-invaders2::before{
+    content: "";
+    position: absolute;
+    top: 4em;
+    left: 3em;
+    height: 1em;
+    width: 1em;
+    background-color: rgb(0, 11, 49);
+    box-shadow: 3em 0 0 0 rgb(0, 11, 49);
+}
+
+.space-invaders-3-container {
+    background-color: rgb(4, 11, 37);
+}
+.space-invaders3 {
+    position: relative;
+    height: 150px;
+    width:200px;
+    background: linear-gradient(#edee31 ,#edee31) 65px 1em/ 65px 2em, linear-gradient(#edee31 ,#edee31) 25px 2em/150px 2em, linear-gradient(#edee31, #edee31) 0px 3em/ 200px 3em, linear-gradient(#edee31,
+    #edee31) 60px 6em/25px 1em, linear-gradient(#edee31, #edee31) 40px 7em/25px 1em, linear-gradient(#edee31 ,#edee31) 15px 8em/ 25px 1em , linear-gradient(#edee31, #edee31) 85px 7em/ 25px 1em, linear-gradient(#edee31 ,#edee31) 110px 6em/ 25px 1em, linear-gradient(#edee31, #edee31) 130px 7em/ 25px 1em, linear-gradient(#edee31 ,#edee31) 155px 8em/ 25px 1em;
+    background-repeat: no-repeat;
+}
+.space-invaders3::before{
+    content: "";
+    position: absolute;
+    top: 4em;
+    left: 60px;
+    height: 1em;
+    width: 25px;
+    background-color: rgb(0, 11, 49);
+    box-shadow: 3em 0 0 0 rgb(0, 11, 49);
+}
+
+
 
 @media screen and (max-height: 350px) {
     .shell {
