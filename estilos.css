@@ -153,9 +153,31 @@
     box-shadow: 3em 0 0 0 rgb(0, 11, 49);
 }
 
+.panda-container {
+    background-color: burlywood;
+}
 
+.panda {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:lightcyan ;
+    box-shadow:50px -50px 0 -50px rgb(60, 60, 60), -50px -50px 0 -50px rgb(60, 60, 60), 50px -50px 0 -40px rgb(30, 30, 32), -50px -50px 0 -40px rgb(30,30,32);
+}
+.panda::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:lightcyan;
+    box-shadow:-8px 8px 0 10px  rgb(30, 30, 32), -5px 5px 0 10px rgb(30, 30, 32), 55px 0 0 0 lightcyan,60px 2px 0 10px rgb(30, 30, 32), 63px 5px 0 10px rgb(30, 30, 32), 25px 30px 0 4px  rgb(30, 30, 32), 28px 30px 0 4px  rgb(30, 30, 32), 31px 30px 0 4px  rgb(30, 30, 32),5px 39px 0 12px lightcyan, 10px 44px 0 10px  rgb(30, 30, 32), 50px 39px 0 12px lightcyan, 44px 44px 0 10px  rgb(30, 30, 32), 27px 42px 0 14px rgb(255, 110, 132);
+}
 
-@media screen and (max-height: 350px) {
+@media screen and (max-height: 450px) {
     .shell {
         height: 100vh;
     }   
