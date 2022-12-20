@@ -178,6 +178,45 @@
     box-shadow:-8px 8px 0 10px  rgb(30, 30, 32), -5px 5px 0 10px rgb(30, 30, 32), 55px 0 0 0 lightcyan,60px 2px 0 10px rgb(30, 30, 32), 63px 5px 0 10px rgb(30, 30, 32), 25px 30px 0 4px  rgb(30, 30, 32), 28px 30px 0 4px  rgb(30, 30, 32), 31px 30px 0 4px  rgb(30, 30, 32),5px 39px 0 12px lightcyan, 10px 44px 0 10px  rgb(30, 30, 32), 50px 39px 0 12px lightcyan, 44px 44px 0 10px  rgb(30, 30, 32), 27px 42px 0 14px rgb(255, 110, 132);
 }
 
+.cocodrilo-container {
+    background-color: #bdf892;
+}
+.cocodrilo {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    transform: rotate(50deg);
+    background-color: #415d17;
+    box-shadow: -70px 142px 0 0 #415d17,-55px 110px 0 0 #415d17, -40px 85px 0 0 #415d17, -23px 55px 0 0 #415d17,-15px 20px 0 0 #415d17,15px -18px 0 0 #415d17,32px -38px 0 0 #415d17, 48px -58px 0 0 #415d17,65px -78px 0 0 #415d17, 90px -95px 0 0 #415d17,105px -112px 0 0 #415d17;
+}
+.cocodrilo::before {
+    content: "";
+    position: absolute;
+    left: -35px;
+    top: -40px;
+    height: 70px;
+    width: 200px;
+    border-radius: 40px;
+    transform: rotate(-50deg);
+    background-color: #90c048;
+    box-shadow: 50px 2px 0 -5px #90c048, 108px 14px 0 -30px #111110, 90px 5px 0 -10px #90c048,
+    -150px 20px 0 -20px #90c048,
+    -140px 20px 0 -20px #90c048, -110px 10px 0 -20px #90c048, -80px 5px 0 -20px #90c048, -50px 0 0 -20px #90c048 ;
+}
+.cocodrilo::after{
+    content: "";
+    position: absolute;
+    left: 130px;
+    top: -115px;
+    height: 10px;
+    width: 10px;
+    border-radius: 40px;
+    transform: rotate(-50deg);
+    background-color: #1b1a1a;
+    box-shadow: -3px 0px 0 3px #ede6e6,17px 28px 0 0 #1b1a1a,30px 5px 0 -2px #1b1a1a, 40px 5px 0 -2px #1b1a1a, 35px 5px 0 10px #90c048;
+}
+
 @media screen and (max-height: 450px) {
     .shell {
         height: 100vh;
