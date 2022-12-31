@@ -219,6 +219,25 @@
     box-shadow: -3px 0px 0 3px #ede6e6,16px 33px 0 -2px #1b1a1a,30px 5px 0 -2px #1b1a1a, 42px 5px 0 -2px #1b1a1a, -5px 0px 0 10px #90c048, 42px 4px 0 5px #90c048, 30px 4px 0 5px #90c048, -65px 60px 0 12px #78a634, -65px 75px 0 12px #78a634, -65px 80px 0 12px #78a634,  -55px 84px 0 8px #78a634,  -170px 60px 0 12px #78a634, -170px 75px 0 12px #78a634, -170px 80px 0 12px #78a634,  -160px 84px 0 8px #78a634;
 }
 
+.panda {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:lightcyan ;
+    box-shadow:50px -50px 0 -50px rgb(60, 60, 60), -50px -50px 0 -50px rgb(60, 60, 60), 50px -50px 0 -40px rgb(30, 30, 32), -50px -50px 0 -40px rgb(30,30,32);
+}
+.panda::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:lightcyan;
+    box-shadow:-8px 8px 0 10px  rgb(30, 30, 32), -5px 5px 0 10px rgb(30, 30, 32), 55px 0 0 0 lightcyan,60px 2px 0 10px rgb(30, 30, 32), 63px 5px 0 10px rgb(30, 30, 32), 25px 30px 0 4px  rgb(30, 30, 32), 28px 30px 0 4px  rgb(30, 30, 32), 31px 30px 0 4px  rgb(30, 30, 32),5px 39px 0 12px lightcyan, 10px 44px 0 10px  rgb(30, 30, 32), 50px 39px 0 12px lightcyan, 44px 44px 0 10px  rgb(30, 30, 32), 27px 42px 0 14px rgb(255, 110, 132);
+}
 
 
 .cristal-container {
