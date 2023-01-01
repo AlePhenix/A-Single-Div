@@ -264,23 +264,22 @@
     linear-gradient(115deg, rgba(0,0,0,0)32%, #983938 30.2%,  #983938 63%, rgba(0,0,0,0) 63.2%) 71% 23%/60px 40px,
     linear-gradient(102deg, rgba(0,0,0,0)24%, #611e27 24.2%,  #611e27 70%, rgba(0,0,0,0) 70.2%) 108% 33.5%/55px 18px,
     linear-gradient(115deg, rgba(0,0,0,0)24%, #611e27  24.2%,  #611e27 70%, rgba(0,0,0,0) 70.2%) 102% 33.5%/55px 18px,
-    linear-gradient(50deg, rgba(0,0,0,0)32%, #64160c 30.2%,  #64160c 63%, rgba(0,0,0,0) 63.2%) 27% 74%/50px 18px,
+    linear-gradient(50deg, rgba(0,0,0,0)32%, #611e27 30.2%,  #611e27 63%, rgba(0,0,0,0) 63.2%) 27% 74%/50px 18px,
     linear-gradient(35deg, rgba(0, 0, 0, 0) 60%, #64160c 60.2% ) 39% 86.1%/22px 20px,
-    linear-gradient(-50deg, rgba(0,0,0,0)32%, #7b061d 30.2%,  #7b061d 63%, rgba(0,0,0,0) 63.2%) 73% 74%/50px 18px,
-    linear-gradient(-35deg, rgba(0, 0, 0, 0) 60%,#7b061d  60.2%) 61% 86.1%/22px 20px
+    linear-gradient(-50deg, rgba(0,0,0,0)32%, #64160c 30.2%,  #64160c 63%, rgba(0,0,0,0) 63.2%) 73% 74%/50px 18px,
+    linear-gradient(-35deg, rgba(0, 0, 0, 0) 60%,#64160c  60.2%) 61% 86.1%/22px 20px
     ;
     background-repeat: no-repeat;
-    z-index: 2;
 }
 
 .cristal::after {
     content: "";
     position: absolute;
-    left: -50px;
+    left: -150px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    box-shadow: 120px 100px 70px 10px rgba(230, 38, 38, 0.7), 80px 110px 70px 10px rgba(230, 38, 38, 0.7);
+    box-shadow: 180px 90px 70px 10px rgb(255, 3, 3);
 }
 @media screen and (max-height: 450px) {
     .shell {
